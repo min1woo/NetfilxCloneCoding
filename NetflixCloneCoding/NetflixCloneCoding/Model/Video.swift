@@ -5,12 +5,11 @@
 //  Created by 유민우 on 8/1/24.
 //
 
-import Foundation
+import UIKit
 
-struct VideoResponse: Codable {
-    let results: [Video]
-}
-
-struct Video: Codable {
-    let id: String?
+class mainViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
